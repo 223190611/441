@@ -1,0 +1,81 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: orange;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh; /* 使body高度占满整个视口高度 */  
+    font-family: Arial, sans-serif; /* 可选：设置字体 */ 
+}  
+  
+header {  
+    background-color: orange;  
+    color: white;  
+    padding: 1em 0;  
+    text-align: center;  
+}  
+  
+header nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+  
+header nav ul li {  
+    display: inline;  
+    margin: 0 1em;  
+}  
+  
+header nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+}  
+  
+main {  
+    padding: 2em;  
+}  
+  
+footer {  
+    background-color: orange;  
+    color: black;  
+    text-align: center;  
+    padding: 1em 0;  
+    position: fixed;  
+    width: 100%;  
+    bottom: 0;  
+}
+.banner-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;  
+}  
+  
+.banner-image {  
+    width: 100%; /* 或者设置为具体的像素值，如300px，或者百分比值，如50% */  
+    max-width: 250px; /* 设置一个最大宽度，以防止图片过大 */  
+    height: auto; /* 保持宽高比 */  
+    margin-bottom: 10px; /* 图片与按钮之间的间距 */
+}  
+
+  
+/* 为了确保表单和其他内容在视觉上居中，我们可以给它们一个容器 */  
+.content-container {  
+    text-align: center; /* 水平居中 */  
+    width: 100%;  
+    max-width: 400px; /* 可选：限制最大宽度以在较大屏幕上保持居中 */  
+    margin: auto; /* 垂直居中（在flex布局中，由于我们已经设置了align-items: center，这一步其实是多余的，但为了清晰性还是保留） */  
+}  
+  
+/* 可选：为表单元素添加一些样式 */  
+form {  
+    background-color: #fff; /* 表单背景为白色 */  
+    padding: 20px; /* 内边距 */  
+    border-radius: 8px; /* 圆角 */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */  
+}  
+
+  
